@@ -1,0 +1,11 @@
+<section ng-controller="BehanceCtrl">
+<div class="container">
+    <div class="row">
+        <ul>
+            <li ng-repeat="behance in behanceResult.results">
+                <img ng-src="{{behance.projects.covers}}">
+                <h1>{{behance.projects.id.name}}</h1>
+            </li>
+        </ul>
+    </div>
+</div>
