@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import{Http, Response} from '@angular/http';
+import{Http, Response} from '@angular/common/http';
 
 @Component({
   selector: 'app-root',
