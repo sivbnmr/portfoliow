@@ -24,7 +24,7 @@ import { UserComponent } from './user/user.component';
     NgbModule.forRoot()
 
   ],
-  providers: [],
+  providers: [AppComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
